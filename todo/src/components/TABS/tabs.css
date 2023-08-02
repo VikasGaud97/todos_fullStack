@@ -1,0 +1,78 @@
+/* .tab_container{
+    display: flex;
+    /* background: lawngreen; */
+
+/* }  */
+.tab_button{
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(36, 36, 36, 0.765);
+    outline:none;
+    font-size: 12px;
+    margin-right:20px;
+    cursor: pointer;
+    /* margin: 20px auto; */
+}
+.tab_button.selected{
+    padding: 9px;
+    border-radius: 5px;
+    outline:none;
+    font-size: 12px;
+    margin-right:20px;
+    cursor: pointer;
+    background: rgb(0, 145, 255);
+    color: white;
+   border: none;
+}
+
+/* screen for all devices */
+@media screen and (max-width:320px){
+    .tab_button{
+        padding: 7px;
+        font-size: 10px;
+    }
+    .tab_button.selected{
+        padding: 7px;
+        font-size: 10px;
+    }
+
+}
+@media screen and (min-width:321px) and (max-width:519px){
+    .tab_container{
+        margin-top: -20px;
+    }
+    .tab_button{
+        padding: 7px;
+        font-size: 11px;
+        width:55px;
+    }
+    .tab_button.selected{
+        padding: 7px;
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:520px) and (max-width:767px){
+    .tab_container{
+        margin-top: -20px;
+    }
+    .tab_button{
+        padding: 8px;
+        font-size: 10px;
+        width:90px;
+        margin-right:10px;
+
+    }
+    .tab_button.selected{
+        padding: 8px;
+        font-size: 10px;
+        margin-right:10px;
+
+    }
+}
+
+@media screen and (min-width:768) and (max-width:1023px){
+ .tab_container{
+    margin: 20px auto !important;
+ }
+
+}

@@ -1,0 +1,96 @@
+.red_button{
+    margin-top: -30px;
+    padding: 10px;
+    font-size:12px;
+    float: right;
+    background-color: #f20e0e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* //sren for all media devices */
+@media (max-width:320px){
+    .red_button{
+        padding: 7px;
+        font-size:8px;
+        width:50px;
+
+    }
+}
+@media screen and (min-width:321px) and (max-width:360px){
+    .red_button{
+        padding: 7px;
+        /* font-size:11px; */
+        width:50px;
+        margin-top: -41px;
+
+    }
+} 
+@media screen and (min-width:361px) and (max-width:375px){
+    .red_button{
+        padding: 7px;
+        font-size:11px;
+        width:55px;
+        margin-top: -41px;
+
+    }
+}
+@media screen and (min-width:376px) and (max-width:389px){
+    .red_button{
+        padding: 7px;
+        /* font-size:11px; */
+        width:50px;
+        margin-top: -40px;
+
+    }
+}
+@media screen and (min-width:390px) and (max-width:393px){
+    .red_button{
+        padding: 7px;
+        /* font-size:11px; */
+        width:50px;
+        margin-top: -40px;
+
+    }
+}
+@media screen and (min-width:394px) and (max-width:400px){
+    .red_button{
+        padding: 7px;
+        /* font-size:11px; */
+        margin-top: -40px;
+        width:65px;
+
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:414px){
+    .red_button{
+        padding: 7px;
+        font-size:8px;
+        width:50px;
+
+    }
+}
+@media screen and (min-width:520px) and (max-width:767px){
+    .red_button{
+         padding: 9px;
+         font-size: 10px;
+         width:90px;
+        margin-top: -28px;
+    }
+}
+/* from 768 to 1023 it will be like this */
+@media screen and (min-width:768) and (max-width:1023px){
+    .red_button{
+        padding: 9px;
+        font-size:11px;
+        width:70px;
+    }
+   }
+
+/* .todo_cont{
+    margin-top: -20px;
+} */
