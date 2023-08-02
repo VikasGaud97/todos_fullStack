@@ -17,7 +17,7 @@ app.use(cors());
 
 app.use(bodyParser.json({extended:true})); // BODY-PARSER IS USED TO MANAGE THE DATA
 app.use(bodyParser.urlencoded({extended:true}));
-app.use('*/user',Routes)// path of route
+app.use('/api',Routes)// path of route
 // app.get("/",(req,res)=>{
 //     res.json("hello its working")
 // })
